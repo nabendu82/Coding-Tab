@@ -12,5 +12,13 @@ function toggleActive(e) {
   }
 }
 
+(function() {
+  var r = Math.round(Math.random())+2;  
+  console.log('r is ', r);
+  document.getElementById('panels'+r).style.display='flex';
+  document.getElementById('panels'+r).style.overflow='hidden';
+  document.getElementById('panels'+r).style.minHeight='100vh';
+})();
+
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));

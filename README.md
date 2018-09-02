@@ -1,8 +1,8 @@
-# Motivational Tab
+# Coding Tab
 
 ## What it does
 
-Opens 5 cool images, which gives a motivation quote. On clicking on each image, shows 5 more quotes with cool animation.
+Opens 4 cool random coding images, which gives a random coding quote. On clicking on each image, shows 4 emojis with cool animation.
 
 
 
